@@ -43,7 +43,7 @@ def train():
     print(f"output.shape: {output.shape}")
 
     print("=======================计算和查看模型参数==============================")
-    summary(model=my_model, input_size=(5, 3))
+    summary(model=my_model, input_size=(5, 3))  # 参数数量 = in_features × out_features + out_features（偏置项）
     for name, param in my_model.named_parameters():
         print(f"name: {name}")
         print(f"param: {param}")
