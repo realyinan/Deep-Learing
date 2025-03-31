@@ -134,4 +134,4 @@ if __name__ == "__main__":
     # model = ImageModel()
     # summary(model=model, input_size=(3, 32, 32))
     # train(train_dataset=train_dataset)
-    test(valid_dataset=valid_dataset)
+    # test(valid_dataset=valid_dataset)
